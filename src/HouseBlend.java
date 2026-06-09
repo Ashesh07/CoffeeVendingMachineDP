@@ -10,7 +10,7 @@ public class HouseBlend implements Coffee{
         this.coffee = null;
     }
 
-    //Decorator constructor - wraps an existing icecream
+    //Decorator constructor - wraps an existing coffee
     HouseBlend(Coffee coffee){
         this.coffee = coffee;
     }
