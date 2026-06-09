@@ -12,7 +12,7 @@ public class Espresso implements Coffee{
         this.coffee = null;
     }
 
-    //Decorator constructor - wraps an existing icecream
+    //Decorator constructor - wraps an existing coffee
     Espresso(Coffee coffee){
         this.coffee = coffee;   //coffee already defined (adding on top)
     }
